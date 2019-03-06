@@ -62,8 +62,8 @@ disqus_username: Menhaei
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: b1cd64cd9fcad7ad6a05d1ad78631952c6ec1acb    #生成的clientSecret
+  clientID: 6aa97bee2071feee75a5                            #生成的clientID
+  clientSecret: 4966e34db154c7fc0b514605445b900309128514    #生成的clientSecret
   repo: Menhaei.github.io    #仓库名称
   owner: Menhaei    #github用户名
   admin: Menhaei
