@@ -604,6 +604,10 @@ pre code {
     font-size: 20px;
   }
 }
+.post-preview {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 .post-preview > a {
   color: #404040;
 }
