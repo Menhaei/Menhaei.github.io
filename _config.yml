@@ -1,6 +1,6 @@
 # Site settings
 title: MSW'Blogs
-SEOTitle: MSW'Blogs
+SEOTitle: MSW'Blogs 
 header-img: img/post-bg-desk.jpg
 email: mshuaiwei@gmail.com
 description: "Every failure is leading towards success."
@@ -57,13 +57,13 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
- disqus_username: Menhaei
+disqus_username: Menhaei
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: b1cd64cd9fcad7ad6a05d1ad78631952c6ec1acb    #生成的clientSecret
+  clientID: 6aa97bee2071feee75a5                            #生成的clientID
+  clientSecret: 4966e34db154c7fc0b514605445b900309128514    #生成的clientSecret
   repo: Menhaei.github.io    #仓库名称
   owner: Menhaei    #github用户名
   admin: Menhaei
@@ -97,9 +97,4 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "cnblogs",
-        href: "https://www.cnblogs.com/mswei/"
-    }
-]
+
