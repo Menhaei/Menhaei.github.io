@@ -5,9 +5,9 @@ header-img: img/post-bg-desk.jpg
 email: mshuaiwei@gmail.com
 description: "Every failure is leading towards success."
 keyword: "MSW, MSW Blog, Python, Java, Shell, Django, Flask, Tornado"
-url: "http://menhaei.github.io"          # your host, for absolute URL
+url: "http://mehaei.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Menhaei/Menhaei.github.io.git" # you code repository
+github_repo: "https://github.com/Mehaei/Mehaei.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
