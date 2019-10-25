@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 6aa97bee2071feee75a5                            #生成的clientID
   clientSecret: 4966e34db154c7fc0b514605445b900309128514    #生成的clientSecret
-  repo: Menhaei.github.io    #仓库名称
-  owner: Menhaei    #github用户名
-  admin: Menhaei
+  repo: Mehaei.github.io    #仓库名称
+  owner: Mehaei    #github用户名
+  admin: Mehaei
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
