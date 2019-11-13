@@ -98,8 +98,8 @@ service-worker: true
 
 
 # Friends
-friends: [
-]
+# friends: [
+# ]
 
 # GongZhongHao
 gongzhonghao: "/img/gongzhonghao.jpeg"
