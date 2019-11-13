@@ -172,4 +172,4 @@ cleanFile("text.jpg", "text2clean.png")
 
 使用云打码识别，识别率会高很多，但也是有代价的，就是需要花钱，但是挺便宜的
 
-　　https://www.cnblogs.com/mswyf/p/9392530.html
+　　[https://www.cnblogs.com/mswei/p/9392530.html](https://www.cnblogs.com/mswei/p/9392530.html)
