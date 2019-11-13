@@ -99,10 +99,6 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "mswei",
-        href: "https://www.cnblogs.com/mswei/"
-    }
 ]
 
 # GongZhongHao
