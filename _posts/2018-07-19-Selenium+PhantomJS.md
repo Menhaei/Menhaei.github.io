@@ -4,7 +4,7 @@ title:      Selenium+PhantomJS
 subtitle:   
 date:       2018-07-19
 author:     Mehaei
-header-img: post-bg-2015.jpg
+header-img: img/post-bg-rwd.jpg
 catalog: true
 tags:
     - python

@@ -4,7 +4,7 @@ title:      Jobforapache2.servicefailedbecausethecontrolprocessexitedwitherrorco
 subtitle:   
 date:       2018-08-08
 author:     Mehaei
-header-img: post-bg-alibaba.jpg
+header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
     - python

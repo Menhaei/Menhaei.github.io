@@ -4,7 +4,7 @@ title:      windows下git的使用方法（码云）
 subtitle:   
 date:       2018-07-04
 author:     Mehaei
-header-img: post-bg-miui6.jpg
+header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
     - python

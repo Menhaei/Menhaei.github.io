@@ -4,7 +4,7 @@ title:      MacSublimeText使用python3运行脚本(command+b)
 subtitle:   
 date:       2019-10-29
 author:     Mehaei
-header-img: post-bg-2015.jpg
+header-img: img/post-bg-mma-1.jpg
 catalog: true
 tags:
     - python

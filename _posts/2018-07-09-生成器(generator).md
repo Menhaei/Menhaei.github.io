@@ -4,7 +4,7 @@ title:      生成器(generator)
 subtitle:   
 date:       2018-07-09
 author:     Mehaei
-header-img: post-bg-iWatch.jpg
+header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
     - python

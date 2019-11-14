@@ -4,7 +4,7 @@ title:      PythonJson模块中dumps、loads、dump、load函数介绍
 subtitle:   
 date:       2018-07-09
 author:     Mehaei
-header-img: post-bg-unix-linux.jpg
+header-img: img/post-bg-rwd.jpg
 catalog: true
 tags:
     - python

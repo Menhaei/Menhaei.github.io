@@ -4,7 +4,7 @@ title:      docker--在centos镜像安装mysql
 subtitle:   
 date:       2019-02-12
 author:     Mehaei
-header-img: post-bg-iWatch.jpg
+header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - python

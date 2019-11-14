@@ -4,7 +4,7 @@ title:      django配合mongo使用
 subtitle:   
 date:       2018-11-20
 author:     Mehaei
-header-img: post-bg-iWatch.jpg
+header-img: img/post-bg-miui6.jpg
 catalog: true
 tags:
     - python

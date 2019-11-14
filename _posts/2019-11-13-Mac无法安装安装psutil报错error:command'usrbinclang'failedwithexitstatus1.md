@@ -4,7 +4,7 @@ title:      Mac无法安装安装psutil报错error:command'usrbinclang'failedwit
 subtitle:   
 date:       2019-11-13
 author:     Mehaei
-header-img: post-bg-2015.jpg
+header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - python

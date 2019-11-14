@@ -4,7 +4,7 @@ title:      Http和Https的区别
 subtitle:   
 date:       2018-07-20
 author:     Mehaei
-header-img: post-bg-ios9-web.jpg
+header-img: img/post-bg-YesOrNo.jpg
 catalog: true
 tags:
     - python

@@ -4,7 +4,7 @@ title:      可迭代对象(Iterable)和迭代器(Iterator)
 subtitle:   
 date:       2018-07-09
 author:     Mehaei
-header-img: home-bg-geek.jpg
+header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
     - python

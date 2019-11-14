@@ -4,7 +4,7 @@ title:      Python-多线程之消费者模式和GIL全局锁
 subtitle:   
 date:       2018-07-17
 author:     Mehaei
-header-img: post-bg-BJJ.jpg
+header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
     - python

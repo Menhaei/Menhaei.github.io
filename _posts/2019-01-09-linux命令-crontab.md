@@ -4,7 +4,7 @@ title:      linux命令-crontab
 subtitle:   
 date:       2019-01-09
 author:     Mehaei
-header-img: post-bg-miui6.jpg
+header-img: img/post-bg-android.jpg
 catalog: true
 tags:
     - python

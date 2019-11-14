@@ -4,7 +4,7 @@ title:      转JSOUP抓取HTTPSHTTP网页，校验问题
 subtitle:   
 date:       2019-02-20
 author:     Mehaei
-header-img: post-bg-iWatch.jpg
+header-img: img/post-bg-desk.jpg
 catalog: true
 tags:
     - python
