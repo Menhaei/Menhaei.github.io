@@ -64,7 +64,7 @@ layout: default
 
                 <ul class="pager">
                     {% if page.previous.url %}
-                    <li class="previous">
+                    <li class="previous" style="visibility: hidden;">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
                         Previous<br>
                         <span>{{page.previous.title}}</span>
@@ -72,7 +72,7 @@ layout: default
                     </li>
                     {% endif %}
                     {% if page.next.url %}
-                    <li class="next">
+                    <li class="next" style="visibility: hidden;">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         Next<br>
                         <span>{{page.next.title}}</span>
@@ -132,6 +132,17 @@ layout: default
                 </div>
             </div>
         {% endif %}
+
+        <!-- site map -->
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <section class="visible-md visible-lg">
+                    <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0tymaex1yef&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+                </section>
+            </div>
 
     <!-- Sidebar Container -->
             <div class="
