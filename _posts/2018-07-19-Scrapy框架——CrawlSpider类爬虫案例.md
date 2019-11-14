@@ -3,8 +3,8 @@ layout:     post
 title:      Scrapy框架——CrawlSpider类爬虫案例
 subtitle:   
 date:       2018-07-19
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-rwd.jpg
 catalog: true
 tags:
     - python

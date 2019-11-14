@@ -3,8 +3,8 @@ layout:     post
 title:      centosvi设置tab为4个空格和括号自动补全
 subtitle:   
 date:       2019-03-21
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-e2e-ux.jpg
 catalog: true
 tags:
     - python

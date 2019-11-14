@@ -3,8 +3,8 @@ layout:     post
 title:      Http和Https的区别
 subtitle:   
 date:       2018-07-20
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-ios9-web.jpg
 catalog: true
 tags:
     - python

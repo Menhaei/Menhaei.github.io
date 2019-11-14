@@ -3,8 +3,8 @@ layout:     post
 title:      macsublime3无法安装PackageControl
 subtitle:   
 date:       2019-03-19
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-android.jpg
 catalog: true
 tags:
     - python

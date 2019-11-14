@@ -3,8 +3,8 @@ layout:     post
 title:      Jobforapache2.servicefailedbecausethecontrolprocessexitedwitherrorcode.See"systemctlstatusapache2.service"and"journalctl-xe"fordetails.
 subtitle:   
 date:       2018-08-08
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-alibaba.jpg
 catalog: true
 tags:
     - python

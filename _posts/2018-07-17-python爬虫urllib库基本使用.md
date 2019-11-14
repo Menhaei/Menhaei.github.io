@@ -3,8 +3,8 @@ layout:     post
 title:      python爬虫urllib库基本使用
 subtitle:   
 date:       2018-07-17
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-rwd.jpg
 catalog: true
 tags:
     - python

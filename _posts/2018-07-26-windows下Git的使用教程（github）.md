@@ -3,8 +3,8 @@ layout:     post
 title:      windows下Git的使用教程（github）
 subtitle:   
 date:       2018-07-26
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-sample-image.jpg
 catalog: true
 tags:
     - python

@@ -3,8 +3,8 @@ layout:     post
 title:      转JSOUP抓取HTTPSHTTP网页，校验问题
 subtitle:   
 date:       2019-02-20
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-iWatch.jpg
 catalog: true
 tags:
     - python

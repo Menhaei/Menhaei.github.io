@@ -3,8 +3,8 @@ layout:     post
 title:      python使用xpath解析含有命名空间(xmlns)的xml
 subtitle:   
 date:       2019-07-23
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: home-bg-geek.jpg
 catalog: true
 tags:
     - python

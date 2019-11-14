@@ -3,8 +3,8 @@ layout:     post
 title:      记一次Django报错Reversefor'indextwo'withnoargumentsnotfound.1pattern(s)tried:'$index$'
 subtitle:   
 date:       2018-11-20
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-coffee.jpeg
 catalog: true
 tags:
     - python

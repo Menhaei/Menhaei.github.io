@@ -3,8 +3,8 @@ layout:     post
 title:      生成器(generator)
 subtitle:   
 date:       2018-07-09
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-iWatch.jpg
 catalog: true
 tags:
     - python

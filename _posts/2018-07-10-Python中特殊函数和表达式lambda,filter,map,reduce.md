@@ -3,8 +3,8 @@ layout:     post
 title:      Python中特殊函数和表达式lambda,filter,map,reduce
 subtitle:   
 date:       2018-07-10
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-mma-4.jpg
 catalog: true
 tags:
     - python

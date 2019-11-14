@@ -3,8 +3,8 @@ layout:     post
 title:      mac安装报错"usrlocalincludestdint.h:2:10:error:#includenestedtoodeeply"
 subtitle:   
 date:       2019-05-17
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-miui-ux.jpg
 catalog: true
 tags:
     - python

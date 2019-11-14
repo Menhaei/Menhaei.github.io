@@ -3,8 +3,8 @@ layout:     post
 title:      PythonJson模块中dumps、loads、dump、load函数介绍
 subtitle:   
 date:       2018-07-09
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-unix-linux.jpg
 catalog: true
 tags:
     - python

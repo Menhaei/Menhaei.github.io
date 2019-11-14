@@ -3,8 +3,8 @@ layout:     post
 title:      docker--在centos镜像安装mysql
 subtitle:   
 date:       2019-02-12
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-iWatch.jpg
 catalog: true
 tags:
     - python

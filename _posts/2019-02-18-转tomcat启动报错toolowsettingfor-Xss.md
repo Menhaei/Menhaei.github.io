@@ -3,8 +3,8 @@ layout:     post
 title:      转tomcat启动报错toolowsettingfor-Xss
 subtitle:   
 date:       2019-02-18
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-universe.jpg
 catalog: true
 tags:
     - python

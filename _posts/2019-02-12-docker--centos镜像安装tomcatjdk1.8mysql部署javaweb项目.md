@@ -3,8 +3,8 @@ layout:     post
 title:      docker--centos镜像安装tomcatjdk1.8mysql部署javaweb项目
 subtitle:   
 date:       2019-02-12
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-keybord.jpg
 catalog: true
 tags:
     - python

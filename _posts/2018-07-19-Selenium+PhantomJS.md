@@ -3,8 +3,8 @@ layout:     post
 title:      Selenium+PhantomJS
 subtitle:   
 date:       2018-07-19
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-2015.jpg
 catalog: true
 tags:
     - python

@@ -3,8 +3,8 @@ layout:     post
 title:      linux命令-crontab
 subtitle:   
 date:       2019-01-09
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-miui6.jpg
 catalog: true
 tags:
     - python

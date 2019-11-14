@@ -3,8 +3,8 @@ layout:     post
 title:      Mac无法安装安装psutil报错error:command'usrbinclang'failedwithexitstatus1
 subtitle:   
 date:       2019-11-13
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-2015.jpg
 catalog: true
 tags:
     - python

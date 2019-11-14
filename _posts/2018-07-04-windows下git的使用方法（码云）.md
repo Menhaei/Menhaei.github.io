@@ -3,8 +3,8 @@ layout:     post
 title:      windows下git的使用方法（码云）
 subtitle:   
 date:       2018-07-04
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-miui6.jpg
 catalog: true
 tags:
     - python

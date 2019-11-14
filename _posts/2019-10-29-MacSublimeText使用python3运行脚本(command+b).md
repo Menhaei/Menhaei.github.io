@@ -3,8 +3,8 @@ layout:     post
 title:      MacSublimeText使用python3运行脚本(command+b)
 subtitle:   
 date:       2019-10-29
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-2015.jpg
 catalog: true
 tags:
     - python

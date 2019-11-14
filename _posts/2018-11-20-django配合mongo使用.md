@@ -3,8 +3,8 @@ layout:     post
 title:      django配合mongo使用
 subtitle:   
 date:       2018-11-20
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-iWatch.jpg
 catalog: true
 tags:
     - python

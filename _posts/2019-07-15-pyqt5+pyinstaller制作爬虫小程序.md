@@ -3,8 +3,8 @@ layout:     post
 title:      pyqt5+pyinstaller制作爬虫小程序
 subtitle:   
 date:       2019-07-15
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-mma-1.jpg
 catalog: true
 tags:
     - python

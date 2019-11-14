@@ -3,8 +3,8 @@ layout:     post
 title:      linux(centos)tomcat设置开机启动
 subtitle:   
 date:       2019-02-13
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-mma-1.jpg
 catalog: true
 tags:
     - python

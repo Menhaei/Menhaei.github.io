@@ -3,8 +3,8 @@ layout:     post
 title:      fake_useragent本地运行各种报错解决办法
 subtitle:   
 date:       2019-09-28
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-hacker.jpg
 catalog: true
 tags:
     - python

@@ -3,8 +3,8 @@ layout:     post
 title:      python爬虫_简单使用百度OCR解析验证码
 subtitle:   
 date:       2018-07-24
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-alibaba.jpg
 catalog: true
 tags:
     - python

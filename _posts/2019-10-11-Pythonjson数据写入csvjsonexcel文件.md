@@ -3,8 +3,8 @@ layout:     post
 title:      Pythonjson数据写入csvjsonexcel文件
 subtitle:   
 date:       2019-10-11
-author:     Menhaei
-header-img: img/post-bg-ios9-web.jpg
+author:     Mehaei
+header-img: post-bg-desk.jpg
 catalog: true
 tags:
     - python
