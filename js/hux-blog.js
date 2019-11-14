@@ -89,7 +89,7 @@ jQuery(document).ready(function($) {
 
     //primary navigation slide-in effect
     if ($(window).width() > MQL) {
-        var headerHeight = $('.navbar-custom').height(),
+        var headerHeight = $('.side-catalog').height(),
             bannerHeight  = $('.intro-header .container').height();     
         $(window).on('scroll', {
                 previousTop: 0
@@ -101,15 +101,15 @@ jQuery(document).ready(function($) {
                 //check if user is scrolling up by mouse or keyborad
                 if (currentTop < this.previousTop) {
                     //if scrolling up...
-                    if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
-                        $('.navbar-custom').addClass('is-visible');
+                    if (currentTop > 0 && $('.side-catalog').hasClass('is-fixed')) {
+                        $('.side-catalog').addClass('is-visible');
                     } else {
-                        $('.navbar-custom').removeClass('is-visible is-fixed');
+                        $('.side-catalog').removeClass('is-visible is-fixed');
                     }
                 } else {
                     //if scrolling down...
-                    $('.navbar-custom').removeClass('is-visible');
-                    if (currentTop > headerHeight && !$('.navbar-custom').hasClass('is-fixed')) $('.navbar-custom').addClass('is-fixed');
+                    $('.side-catalog').removeClass('is-visible');
+                    if (currentTop > headerHeight && !$('.side-catalog').hasClass('is-fixed')) $('.side-catalog').addClass('is-fixed');
                 }
                 this.previousTop = currentTop;
 
