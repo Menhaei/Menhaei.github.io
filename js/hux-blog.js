@@ -119,7 +119,6 @@ jQuery(document).ready(function($) {
                 }
                 this.previousTop = currentTop;
 
-
                 //adjust the appearance of site-map
                 $sitemap.show()
                 if (currentTop > (bannerHeight + 41)) {
@@ -127,7 +126,7 @@ jQuery(document).ready(function($) {
                     $sitemap.css({"position":"fixed","top": headerHeight});
                 } else {
                     // $sitemap.removeClass('fixed') 
-                    $sitemap.css(defaultCss);
+                    $sitemap.css({"display": "block", "overflow": "auto", "height": "100%", "padding-bottom": "40px", "width": "195px"});
                 }
             });
     }
