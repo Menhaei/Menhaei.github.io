@@ -125,8 +125,9 @@ jQuery(document).ready(function($) {
                     // $sitemap.addClass('fixed') position: fixed
                     $sitemap.css({"position":"fixed","top": headerHeight});
                 } else {
+                    $sitemap.removeAttr("style")
                     // $sitemap.removeClass('fixed') 
-                    $sitemap.css({"display": "block", "overflow": "auto", "height": "100%", "padding-bottom": "40px", "width": "195px"});
+                    // $sitemap.css({"display": "block", "overflow": "auto", "height": "100%", "padding-bottom": "40px", "width": "195px"});
                 }
             });
     }
