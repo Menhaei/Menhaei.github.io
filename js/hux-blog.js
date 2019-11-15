@@ -86,13 +86,6 @@ jQuery(document).ready(function($) {
 // Navigation Scripts to Show Header on Scroll-Up
 jQuery(document).ready(function($) {
     var MQL = 1170;
-    var defaultCss = {
-        "display": "block",
-        "overflow": "auto",
-        "height": "100%",
-        "padding-bottom": "40px",
-        "width": "195px",
-    };
     //primary navigation slide-in effect
     if ($(window).width() > MQL) {
         var headerHeight = $('.side-catalog').height(),
@@ -122,13 +115,10 @@ jQuery(document).ready(function($) {
                 //adjust the appearance of site-map
                 $sitemap.show()
                 if (currentTop > (bannerHeight + 41)) {
-                    // $sitemap.addClass('fixed') position: fixed
                     $sitemap.css({"position":"fixed","top": headerHeight});
                 } else {
                     $sitemap.removeAttr("style")
-                    // $sitemap.removeClass('fixed') 
-                    // $sitemap.css({"display": "block", "overflow": "auto", "height": "100%", "padding-bottom": "40px", "width": "195px"});
-                }
+               }
             });
     }
 });

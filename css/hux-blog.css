@@ -69,10 +69,6 @@
   padding-bottom: 40px;
   width: 195px;
 }
-.site-map.fixed {
-  position: fixed;
-  top: 100px;
-}
 .side-catalog.fold .catalog-toggle::before {
   content: "+";
 }
