@@ -31,7 +31,7 @@ STUDENT_DICT = {
     3: {'name': 'EDU', 'age': 84, 'gender': '女'},
 }
 ```
-{ % endraw %}
+{% endraw %}
 
 但是前提我们要知道Jinja2模板中的流程控制:
 
@@ -43,7 +43,7 @@ I. Jinja2模板语言中的 for
 
 {% endfor %}
 ```
-{ % endraw %}
+{% endraw %}
 
 II. Jinja2模板语言中的 if
 
@@ -57,7 +57,7 @@ II. Jinja2模板语言中的 if
     
 {% endif %}
 ```
-{ % endraw %}
+{% endraw %}
 
 接下来,我们对这几种情况分别进行传递,并在前端显示成表格
 
@@ -71,7 +71,7 @@ II. Jinja2模板语言中的 if
 def index():
     return render_template("student.html", student=STUDENT)
 ```
-{ % endraw %}
+{% endraw %}
 
 前端:
 
@@ -96,7 +96,7 @@ Welcome to Old Boy EDU
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 结果:
 
@@ -114,7 +114,7 @@ Welcome to Old Boy EDU
 def student_list():
     return render_template("student_list.html", student=STUDENT_LIST)
 ```
-{ % endraw %}
+{% endraw %}
 
 前端:
 
@@ -142,7 +142,7 @@ Welcome to Old Boy EDU
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 结果:
 
@@ -158,7 +158,7 @@ Welcome to Old Boy EDU
         </tr>
     {% endfor %}
 ```
-{ % endraw %}
+{% endraw %}
 
 上述代码中的 foo 就是列表中的每一个字典,再使用各种取值方式取出值即可
 
@@ -172,7 +172,7 @@ Welcome to Old Boy EDU
 def student_dict():
     return render_template("student_dict.html", student=STUDENT_DICT)
 ```
-{ % endraw %}
+{% endraw %}
 
 前端:
 
@@ -199,7 +199,7 @@ Welcome to Old Boy EDU
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 在遍历字典的时候,foo 其实是相当于拿出了字典中的Key
 
@@ -219,7 +219,7 @@ def all_student():
                            student_list = STUDENT_LIST,
                            student_dict= STUDENT_DICT)
 ```
-{ % endraw %}
+{% endraw %}
 
 前端:
 
@@ -271,7 +271,7 @@ Welcome to Old Boy EDU : student_dict
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 结果:
 
@@ -293,7 +293,7 @@ def all_student():
                            "student_list" : STUDENT_LIST,
                            "student_dict": STUDENT_DICT})
 ```
-{ % endraw %}
+{% endraw %}
 
 6. Jinja2 的高阶用法
 
@@ -318,7 +318,7 @@ def index():
 
 app.run("0.0.0.0",5000)
 ```
-{ % endraw %}
+{% endraw %}
 
 前端代码:
 
@@ -335,7 +335,7 @@ app.run("0.0.0.0",5000)
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 如果我们直接运行代码直接访问,你会在页面看到什么呢?
 
@@ -360,7 +360,7 @@ app.run("0.0.0.0",5000)
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 还有一种方式是从后端入手
 
@@ -386,7 +386,7 @@ def index():
 
 app.run("0.0.0.0", 5000, debug=True)
 ```
-{ % endraw %}
+{% endraw %}
 
 两种得到的效果是一样
 
@@ -415,7 +415,7 @@ def index():
 
 app.run("0.0.0.0", 5000, debug=True)
 ```
-{ % endraw %}
+{% endraw %}
 
 前端代码:
 
@@ -434,7 +434,7 @@ app.run("0.0.0.0", 5000, debug=True)
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 <img src="https://images2018.cnblogs.com/blog/1122946/201807/1122946-20180705210805791-1956281151.png" alt="" />
 
@@ -470,7 +470,7 @@ def index():
 
 app.run("0.0.0.0", 5000, debug=True)
 ```
-{ % endraw %}
+{% endraw %}
 
 前端代码:
 
@@ -489,7 +489,7 @@ app.run("0.0.0.0", 5000, debug=True)
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 两个函数的调用方式不太一样
 
@@ -524,7 +524,7 @@ index.html 文件中的内容
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 login.html 文件中的内容
 
@@ -538,7 +538,7 @@ login.html 文件中的内容
     </form>
 {% endblock %}
 ```
-{ % endraw %}
+{% endraw %}
 
 home.html 文件中的内容
 
@@ -549,7 +549,7 @@ home.html 文件中的内容
     <h1>欢迎来到老男孩教育</h1>
 {% endblock %}
 ```
-{ % endraw %}
+{% endraw %}
 
 后端代码:
 
@@ -573,7 +573,7 @@ def home():
 
 app.run("0.0.0.0", 5000, debug=True)
 ```
-{ % endraw %}
+{% endraw %}
 
 然后我们可以看到什么呢?
 
@@ -594,7 +594,7 @@ login.html 文件中的内容:
     密码:<input type="text" name="pwd">
 </form>
 ```
-{ % endraw %}
+{% endraw %}
 
 index.html 文件中的内容
 
@@ -615,7 +615,7 @@ index.html 文件中的内容
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 后端代码:
 
@@ -634,7 +634,7 @@ def index():
 
 app.run("0.0.0.0", 5000, debug=True)
 ```
-{ % endraw %}
+{% endraw %}
 
 看到的结果
 
@@ -670,7 +670,7 @@ app.run("0.0.0.0", 5000, debug=True)
 </body>
 </html>
 ```
-{ % endraw %}
+{% endraw %}
 
 宏定义一般情况下很少应用到,但是要知道有这么个概念
 
