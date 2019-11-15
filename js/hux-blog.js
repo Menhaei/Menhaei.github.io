@@ -124,7 +124,7 @@ jQuery(document).ready(function($) {
                 $sitemap.show()
                 if (currentTop > (bannerHeight + 41)) {
                     // $sitemap.addClass('fixed') position: fixed
-                    $sitemap.css({"position":"fixed","top": $headerHeight});
+                    $sitemap.css({"position":"fixed","top": headerHeight});
                 } else {
                     // $sitemap.removeClass('fixed') 
                     $sitemap.css(defaultCss);
