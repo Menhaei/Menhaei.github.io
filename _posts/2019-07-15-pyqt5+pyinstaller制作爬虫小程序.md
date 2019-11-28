@@ -4,7 +4,7 @@ title:      pyqt5+pyinstaller制作爬虫小程序
 subtitle:   
 date:       2019-07-15
 author:     Mehaei
-header-img: img/post-bg-mma-0.png
+header-img: img/post-bg-miui-ux.jpg
 catalog: true
 tags:
     - python

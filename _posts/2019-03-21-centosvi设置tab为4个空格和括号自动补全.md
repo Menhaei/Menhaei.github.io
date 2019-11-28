@@ -4,7 +4,7 @@ title:      centosvi设置tab为4个空格和括号自动补全
 subtitle:   
 date:       2019-03-21
 author:     Mehaei
-header-img: img/post-bg-mma-6.jpg
+header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
     - python

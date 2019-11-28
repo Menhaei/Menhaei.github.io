@@ -4,7 +4,7 @@ title:      linux(centos)tomcat设置开机启动
 subtitle:   
 date:       2019-02-13
 author:     Mehaei
-header-img: img/home-bg-geek.jpg
+header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
     - python

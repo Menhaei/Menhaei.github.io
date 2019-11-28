@@ -4,7 +4,7 @@ title:      python爬虫urllib库基本使用
 subtitle:   
 date:       2018-07-17
 author:     Mehaei
-header-img: img/post-bg-miui6.jpg
+header-img: img/post-bg-iWatch.jpg
 catalog: true
 tags:
     - python

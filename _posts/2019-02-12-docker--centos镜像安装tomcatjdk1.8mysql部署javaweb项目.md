@@ -4,7 +4,7 @@ title:      docker--centos镜像安装tomcatjdk1.8mysql部署javaweb项目
 subtitle:   
 date:       2019-02-12
 author:     Mehaei
-header-img: img/post-bg-swift2.jpg
+header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:
     - python

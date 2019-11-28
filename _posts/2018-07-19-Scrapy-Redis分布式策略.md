@@ -4,7 +4,7 @@ title:      Scrapy-Redis分布式策略
 subtitle:   
 date:       2018-07-19
 author:     Mehaei
-header-img: img/post-bg-unix-linux.jpg
+header-img: img/post-bg-os-metro.jpg
 catalog: true
 tags:
     - python

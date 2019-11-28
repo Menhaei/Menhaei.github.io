@@ -4,7 +4,7 @@ title:      Python中特殊函数和表达式lambda,filter,map,reduce
 subtitle:   
 date:       2018-07-10
 author:     Mehaei
-header-img: img/post-bg-universe.jpg
+header-img: img/post-bg-mma-6.jpg
 catalog: true
 tags:
     - python

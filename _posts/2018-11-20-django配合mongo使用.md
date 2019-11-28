@@ -4,22 +4,25 @@ title:      django配合mongo使用
 subtitle:   
 date:       2018-11-20
 author:     Mehaei
-header-img: img/post-bg-miui6.jpg
+header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - python
 ---
-环境
+# 环境
 
-　　django 1.11.16
+```
+django 1.11.16
+mongoengine 0.16.0
+```
 
-　　mongoengine 0.16.0
+# 安装mongoengine库
 
-需要安装mongoengine库
+```
+pip install mongoengine
+```
 
-　　pip install mongoengine
-
-1.在配置文件中
+# 修改配置文件
 
 ```
 # settings.py
@@ -38,7 +41,7 @@ from mongoengine import connect
 connect('test')
 ```
 
-2.在models.py中
+# 修改models.py文件
 
 ```
 #models.py
@@ -52,7 +55,7 @@ class TextModel(mongoengine.Document):
     content = mongoengine.StringField(max_length=255)
 ```
 
-3.在views.py中使用
+# 修改views.py文件
 
 ```
 # views.py
@@ -86,3 +89,5 @@ class HomeHtml(object):
         self.text.filter(name='test').first().delete()
         return render(request, 'index.html')    
 ```
+
+到这里就可以在框架中正常使用mongo了

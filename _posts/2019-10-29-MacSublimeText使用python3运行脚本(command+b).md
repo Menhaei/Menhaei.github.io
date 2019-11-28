@@ -4,7 +4,7 @@ title:      MacSublimeText使用python3运行脚本(command+b)
 subtitle:   
 date:       2019-10-29
 author:     Mehaei
-header-img: img/post-bg-mma-1.jpg
+header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
     - python
@@ -35,12 +35,14 @@ vi ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Python3.sublime
 
 复制以下内容, 添加到文件中
 
+{% raw %}
 ```
 { 
    "cmd": ["python3安装路径", "-u", "$file"], 
    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)", 
    "selector": "source.python",　　"env": {"PYTHONIOENCODING": "utf8"}}
 ```
+{% endraw %}
 
 # env不添加可能会报错UnicodeEncodeError
 

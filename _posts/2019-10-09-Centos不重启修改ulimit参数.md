@@ -4,7 +4,7 @@ title:      Centos不重启修改ulimit参数
 subtitle:   
 date:       2019-10-09
 author:     Mehaei
-header-img: img/post-bg-BJJ.jpg
+header-img: img/post-bg-rwd.jpg
 catalog: true
 tags:
     - python

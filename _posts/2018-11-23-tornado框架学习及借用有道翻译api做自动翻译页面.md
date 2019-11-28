@@ -4,7 +4,7 @@ title:      tornado框架学习及借用有道翻译api做自动翻译页面
 subtitle:   
 date:       2018-11-23
 author:     Mehaei
-header-img: img/post-bg-unix-linux.jpg
+header-img: img/post-bg-ioses.jpg
 catalog: true
 tags:
     - python

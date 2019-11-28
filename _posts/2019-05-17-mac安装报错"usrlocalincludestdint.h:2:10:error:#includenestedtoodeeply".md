@@ -4,7 +4,7 @@ title:      mac安装报错"usrlocalincludestdint.h:2:10:error:#includenestedtoo
 subtitle:   
 date:       2019-05-17
 author:     Mehaei
-header-img: img/post-bg-android.jpg
+header-img: img/post-bg-miui6.jpg
 catalog: true
 tags:
     - python

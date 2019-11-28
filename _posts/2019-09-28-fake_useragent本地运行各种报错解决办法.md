@@ -4,7 +4,7 @@ title:      fake_useragent本地运行各种报错解决办法
 subtitle:   
 date:       2019-09-28
 author:     Mehaei
-header-img: img/post-bg-coffee.jpeg
+header-img: img/post-bg-iWatch.jpg
 catalog: true
 tags:
     - python

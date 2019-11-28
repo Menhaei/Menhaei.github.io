@@ -4,7 +4,7 @@ title:      记一次Django报错Reversefor'indextwo'withnoargumentsnotfound.1pa
 subtitle:   
 date:       2018-11-20
 author:     Mehaei
-header-img: img/post-bg-e2e-ux.jpg
+header-img: img/post-bg-ioses.jpg
 catalog: true
 tags:
     - python

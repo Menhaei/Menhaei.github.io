@@ -4,7 +4,7 @@ title:      windows下Git的使用教程（github）
 subtitle:   
 date:       2018-07-26
 author:     Mehaei
-header-img: img/post-bg-map.jpg
+header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:
     - python
