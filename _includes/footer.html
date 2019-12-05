@@ -253,12 +253,12 @@
         var active_li = $(".catalog-body>li.h1_nav.active");
         var i = 0;
         while (i < 10) {
-            var next_sibing = active_li.next();
-            if (next_sibing.hasClass("h1_nav")){
+            var active_li = active_li.next();
+            if (active_li.hasClass("h1_nav")){
                 break;
             }else{
-                next_sibing.removeClass("cate_hidden_two_level");
-                next_sibing.css("padding-left", "20px");
+                active_li.removeClass("cate_hidden_two_level");
+                active_li.css("padding-left", "20px");
             };
             i++;
         };
