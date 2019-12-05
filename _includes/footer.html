@@ -251,12 +251,15 @@
     }));
     function show_two_level_menu(){
         var active_li = $(".catalog-body>li.h1_nav.active");
+        var i = 0;
         while (i < 10) {
             var next_sibing = active_li.next();
             if (next_sibing.hasClass("h1_nav")){
                 break;
-            }
-            next_sibing.removeClass("cate_hidden_two_level");
+            }else{
+                next_sibing.removeClass("cate_hidden_two_level");
+                next_sibing.css("padding-left", "20px");
+            };
             i++;
         };
     };
@@ -275,8 +278,8 @@
             scrollOffset: 0,
             scrollThreshold: .2,
             begin: null,
-            end: show_two_level_menu,
-            scrollChange: null,
+            end: null,
+            scrollChange: show_two_level_menu,
             padding: 80
         });
     });
