@@ -232,11 +232,15 @@
             i = "#"+$(this).prop('id');
             t = $(this).text();
             c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
-            l = $('<li class="'+n+'_nav cate_hidden_two_level"></li>').append(c);
+            if (n === "h1"){
+                l = $('<li class="'+n+'_nav "></li>').append(c);
+            }else{
+                l = $('<li class="'+n+'_nav cate_hidden_two_level"></li>').append(c);
+            };
             $(selector).append(l);
         });
         return true;    
-    }
+    };
 
     generateCatalog(".catalog-body");
 
@@ -246,15 +250,15 @@
         $('.side-catalog').toggleClass("fold")
     }));
     function show_two_level_menu(){
-        active_li = $(".catalog-body>li.h1_nav.active")
+        var active_li = $(".catalog-body>li.h1_nav.active");
         while (i < 10) {
-            next_sibing = active_li.next()
+            var next_sibing = active_li.next();
             if (next_sibing.hasClass("h1_nav")){
                 break;
             }
-            next_sibing.removeClass("cate_hidden_two_level")
+            next_sibing.removeClass("cate_hidden_two_level");
             i++;
-        }
+        };
     };
 
     /*
