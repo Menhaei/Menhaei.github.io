@@ -1103,3 +1103,7 @@ img::-moz-selection {
 .cate_hidden_two_level {
   display: none;
 }
+.cate_show_two_level {
+  display: list-item;
+  position-left: 20px;
+}
