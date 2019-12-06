@@ -1105,5 +1105,5 @@ img::-moz-selection {
 }
 .cate_show_two_level {
   display: list-item;
-  position-left: 20px !important;
+  padding-left: 20px;
 }
