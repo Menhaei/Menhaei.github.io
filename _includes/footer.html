@@ -226,17 +226,23 @@
 <script type="text/javascript">
     function generateCatalog (selector) {
         var P = $('div.post-container'),a,n,t,l,i,c;
+        var h_one = 1;
+        var h_two = 0;
         a = P.find('h1,h2');
         a.each(function () {
             n = $(this).prop('tagName').toLowerCase();
             i = "#"+$(this).prop('id');
             t = $(this).text();
-            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            c = $('<a href="'+i+'" rel="nofollow">'+h_one+'.'+h_two+t+'</a>');
             if (n === "h1"){
+                h_one ++;
+                h_two = 0;
                 l = $('<li class="'+n+'_nav "></li>').append(c);
             }else{
+                h_two ++;
                 l = $('<li class="'+n+'_nav cate_hidden_two_level"></li>').append(c);
             };
+            $(this).text(h_one+'/'+h_two+t)
             $(selector).append(l);
         });
         return true;    
