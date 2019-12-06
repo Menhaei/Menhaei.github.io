@@ -273,7 +273,9 @@
         var l = $(".catalog-body li");
         active_num = $(".catalog-body li.active>a").text()[0]
         l.each(function() {
-            if ($(this).text() && $(this).text()[0] == active_num){
+            if ($(this).prop('tagName').toLowerCase() == "h1"){
+                continue;
+            }else if($(this).text() && $(this).text()[0] == active_num){
                 $(this).addClass("cate_show_two_level");
                 $(this).removeClass("cate_hidden_two_level")
             }else{
