@@ -66,7 +66,7 @@
   display: block;
   overflow: auto;
   height: 100%;
-  padding-bottom: 40px;
+  padding-top: 100px;
   width: 195px;
 }
 .side-catalog.fold .catalog-toggle::before {
@@ -1105,5 +1105,5 @@ img::-moz-selection {
 }
 .cate_show_two_level {
   display: list-item;
-  position-left: 20px;
+  position-left: 20px !important;
 }
