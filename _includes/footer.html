@@ -276,6 +276,9 @@
             if ($(this).text() && $(this).text()[0] == active_num){
                 $(this).addClass("cate_show_two_level");
                 $(this).removeClass("cate_hidden_two_level")
+            }else{
+                $(this).addClass("cate_hidden_two_level");
+                $(this).removeClass("cate_show_two_level")   
             };
         });
     };
