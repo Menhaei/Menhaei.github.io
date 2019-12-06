@@ -233,16 +233,17 @@
             n = $(this).prop('tagName').toLowerCase();
             i = "#"+$(this).prop('id');
             t = $(this).text();
-            c = $('<a href="'+i+'" rel="nofollow">'+h_one+'.'+h_two+' '+t+'</a>');
-            $(this).text(h_one+'/'+h_two+' '+t);
             if (n === "h1"){
                 h_one ++;
                 h_two = 0;
-                l = $('<li class="'+n+'_nav "></li>').append(c);
+                l = $('<li class="'+n+'_nav "></li>');
             }else{
                 h_two ++;
-                l = $('<li class="'+n+'_nav cate_hidden_two_level"></li>').append(c);
+                l = $('<li class="'+n+'_nav cate_hidden_two_level"></li>');
             };
+            c = $('<a href="'+i+'" rel="nofollow">'+h_one+'.'+h_two+' '+t+'</a>');
+            l.append(c);
+            $(this).text(h_one+'/'+h_two+' '+t);
             $(selector).append(l);
         });
         return true;    
