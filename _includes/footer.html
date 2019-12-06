@@ -269,6 +269,16 @@
             i++;
         };
     };
+    function AsyncCatalog() {
+        var l = $(".catalog-body li");
+        active_num = $(".catalog-body li.active>a").text()[0]
+        l.each(function() {
+            if ($(this).innerText[0] == active_num){
+                $(this).addClass("cate_show_two_level");
+                $(this).removeClass("cate_hidden_two_level")
+            };
+        });
+    };
 
     /*
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
@@ -285,7 +295,7 @@
             scrollThreshold: .2,
             begin: null,
             end: null,
-            scrollChange: show_two_level_menu,
+            scrollChange: AsyncCatalog,
             padding: 80
         });
     });
