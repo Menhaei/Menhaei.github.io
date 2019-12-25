@@ -1,17 +1,16 @@
 # Site settings
 title: MSW'Blogs
 SEOTitle: MSW'Blogs 
-header-img: img/post-bg-desk.jpg
-email: mshuaiwei@gmail.com
+header-img: img/home-bg-o.jpg
 description: "Every failure is leading towards success."
-keyword: "MSW, MSW Blog, Python, Java, Shell, Django, Flask, Tornado"
+keyword: "MSW, MSW Blog, Python, Java, Shell, Django, Flask, Tornado, Mehaei"
 url: "http://mehaei.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Mehaei/Mehaei.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Beyond the python!"
+sidebar-about-description: "Life is short, you need Python!"
 sidebar-avatar: /img/WechatIMG2.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -25,6 +24,8 @@ cnblogs_username:    mswei
 # facebook_username:  baiying.qiu.7
 # jianshu_username:   e71990ada2fd
 # twitter_username:   qiubaiying
+email: mshuaiwei@gmail.com
+
 
 
 

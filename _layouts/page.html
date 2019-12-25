@@ -135,10 +135,20 @@ layout: default
                             {% endif %}
                             {% if site.cnblogs_username %}
                             <li>
-                                <a target="_blank" href="https://www.cnblogs.com/{{ site.cnblogs_username }}">
+                                <a target="_blank" href="https://www.cnblogs.com/{{ site.cnblogs_username }}" title="欢迎访问我的博客园">
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa  fa-stack-1x fa-inverse">博</i>
+                                    </span>
+                                </a>
+                            </li>
+                            {% endif %}
+                            {% if site.email %}
+                            <li>
+                                <a target="_blank" href="mailto:{{ site.email }}?subject=Your suggestion" title="点击给我发送邮件">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa  fa-stack-1x fa-inverse">✉️</i>
                                     </span>
                                 </a>
                             </li>
@@ -194,10 +204,10 @@ layout: default
                             </li>
                             {% endif %}
                             
-                        </ul>
+                        </ul><!-- 
                         {% if site.email %}
                             <p>✉️ {{site.email}}</p>
-                        {% endif %}
+                        {% endif %} -->
                     </div>
                 </section>
                 <!-- Friends Blog -->
