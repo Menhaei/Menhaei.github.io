@@ -9,6 +9,6 @@ catalog: true
 tags:
     - Python
 ---
-#  转至
+#  转自
 
-[https://mp.weixin.qq.com/s/ontnLorzMiW0BG69Oz1xEQ](https://mp.weixin.qq.com/s/ontnLorzMiW0BG69Oz1xEQ)
+[https://mp.weixin.qq.com/s/ontnLorzMiW0BG69Oz1xEQ](https://mp.weixin.qq.com/s/8YvoSP_1H3ffc6dVVfRDlw)
