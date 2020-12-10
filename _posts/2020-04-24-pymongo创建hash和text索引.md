@@ -4,14 +4,14 @@ title:      pymongo创建hash和text索引
 subtitle:   
 date:       2020-04-24
 author:     Mehaei
-header-img: img/post-sample-image.jpg
+header-img: img/post-bg-mma-1.jpg
 catalog: true
 tags:
     - Python
 ---
 # 来源于
 
-### 「[不止于python](http://mp.weixin.qq.com/s?__biz=MzUyMzk3OTYyMQ==&mid=100000201&idx=1&sn=f6e13bcb154c95b654bce9ccca1025e4&chksm=7a351fc34d4296d55f04396ec06447002fd31c7c87f2a2269f25f383e79c38e0722e71fc6628#rd)」
+「[不止于python](http://mp.weixin.qq.com/s?__biz=MzUyMzk3OTYyMQ==&mid=100000201&idx=1&sn=f6e13bcb154c95b654bce9ccca1025e4&chksm=7a351fc34d4296d55f04396ec06447002fd31c7c87f2a2269f25f383e79c38e0722e71fc6628#rd)」
 
 # 报错中.......
 
